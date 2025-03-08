@@ -184,12 +184,7 @@
         const modal = document.querySelector('.modal-overlay');
         const channelsGrid = document.querySelector('.channels-grid');
         
-        const channels = [
-            'https://t.me/m5stick_loni2',
-            'https://t.me/+QFjtYcgb7J9jYTJi'
-        ];
         
-
         function createChannelButtons() {
             channelsGrid.innerHTML = channels.map(channel => {
                 let channelName = channel.replace('https://t.me/', '');
